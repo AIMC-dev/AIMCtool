@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIMC Stemmodule</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/wallet.js" defer></script>
+  <script src="js/vote.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>AIMC TOOL – Stemmodule</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ai-generator.html">AI Meme Generator</a>
+      <a href="vote.html">Stemmen</a>
+      <a href="https://t.me/AIMCadmin" target="_blank">Telegram</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Welke AI-meme moet de volgende viral gaan?</h2>
+    <div id="voteSection">
+      <button onclick="submitVote('Elon Musk')">🧠 Elon Musk</button><br />
+      <button onclick="submitVote('ChatGPT')">🤖 ChatGPT</button><br />
+      <button onclick="submitVote('Solana degen')">💎 Solana degen</button><br />
+      <button onclick="submitVote('Katten met laserogen')">😹 Katten met laserogen</button><br />
+    </div>
+    <div id="voteResult"></div>
+  </main>
+</body>
+</html>
