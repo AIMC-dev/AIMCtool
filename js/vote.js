@@ -18,4 +18,4 @@ function submitVote(option) {
     resultText += `${key}: ${votes[key]} stemmen\n`;
   }
   document.getElementById('voteResult').innerText = resultText;
-}
+} 
