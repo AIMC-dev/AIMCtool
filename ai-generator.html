@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Meme Generator</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>AIMC TOOL</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ai-generator.html">AI Meme Generator</a>
+      <a href="#">Stemmen (binnenkort)</a>
+      <a href="https://t.me/AIMCadmin" target="_blank">Telegram</a>
+    </nav>
+  </header>
+  <main>
+    <h2>AI Meme Generator</h2>
+    <input type="text" id="memePrompt" placeholder="Geef een meme-idee in..." />
+    <button onclick="generateMeme()">🎨 Genereer Meme</button>
+    <div id="memeResult"></div>
+  </main>
+  <script src="js/generator.js"></script>
+</body>
+</html>
