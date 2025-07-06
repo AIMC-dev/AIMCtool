@@ -7,4 +7,4 @@ function generateMeme() {
   }
   resultDiv.innerHTML = '<p><strong>AI Meme output voor:</strong> ' + prompt + '</p>' +
     '<img src="https://api.memegen.link/images/custom/_/' + encodeURIComponent(prompt) + '.png?background=none" alt="meme" />'; 
-} 
+}  
