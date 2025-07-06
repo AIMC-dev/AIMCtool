@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Meme Generator</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/wallet.js" defer></script>
+  <script src="js/generator.js" defer></script>
 </head>
 <body>
   <header>
@@ -18,10 +20,12 @@
   </header>
   <main>
     <h2>AI Meme Generator</h2>
-    <input type="text" id="memePrompt" placeholder="Geef een meme-idee in..." />
-    <button onclick="generateMeme()">🎨 Genereer Meme</button>
-    <div id="memeResult"></div>
+    <p id="accessMsg">⏳ Wallet controleren...</p>
+    <div id="generatorBlock" style="display:none;">
+      <input type="text" id="memePrompt" placeholder="Geef een meme-idee in..." />
+      <button onclick="generateMeme()">🎨 Genereer Meme</button>
+      <div id="memeResult"></div>
+    </div>
   </main>
-  <script src="js/generator.js"></script>
 </body>
 </html>
